@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antalya Şehir Turu | Traviask</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        main h1.section__title {
+            font-size: 2.5rem;
+            color: hsl(190, 64%, 22%);
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        main p.section__subtitle {
+            font-size: 1.2rem;
+            color: hsl(190, 8%, 40%);
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        main img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        main h2, main h3 {
+            color: hsl(190, 64%, 22%);
+            margin-top: 2rem;
+            font-size: 1.5rem;
+        }
+        main ul {
+            padding-left: 1.5rem;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        main ul li {
+            list-style: none;
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        main ul li::before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+        main p {
+            line-height: 1.6;
+            color: hsl(190, 8%, 35%);
+        }
+        main p strong {
+            color: hsl(190, 64%, 22%);
+        }
+        main .container {
+            background-color: #fdfdfd;
+            border: 1px solid #eaeaea;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.05);
+        }
+        .button {
+            background-color: hsl(190, 64%, 22%);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 1.5rem;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: hsl(190, 64%, 15%);
+        }
+    </style>
+</head>
+<script src="assets/js/floating-buttons.js"></script>
+<body>
+
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="../index.html" class="nav__logo">Traviask</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="../index.html#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="../index.html#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="../index.html#discover" class="nav__link">Discover</a></li>
+                <li class="nav__item"><a href="../index.html#place" class="nav__link">Places</a></li>
+                <li class="nav__item"><a href="../index.html#blog" class="nav__link">Blog</a></li>
+            </ul>
+
+            <div class="nav__dark">
+                <span class="change-theme-name">Dark mode</span>
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+
+            <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line"></i>
+        </div>
+    </nav>
+</header>
+
+<main class="main section">
+    <div class="container">
+        <h1 class="section__title">Antalya Şehir Turu</h1>
+        <p class="section__subtitle">Şelaleler, Kaleiçi, Teleferik ve Daha Fazlası</p>
+
+        <img src="../assets/img/land-of-legends-8.jpg" alt="Antalya Şehir Turu">
+
+        <h2>Açıklama</h2>
+        <p>Antalya’nın tarihi ve doğal güzelliklerini bir günde keşfedin. Düden Şelalesi’nde serinleyin, Kaleiçi’nin tarihi sokaklarında yürüyün, teleferikle şehrin panoramik manzarasını izleyin. Şehirde geçen bu unutulmaz gün, rehber eşliğinde ve konforlu ulaşım ile sunulmaktadır.</p>
+
+        <h3>Öne Çıkanlar</h3>
+        <ul>
+            <li>Düden Şelalesi’nde doğa ile buluşma</li>
+            <li>Kaleiçi'nde tarihi ve kültürel gezi</li>
+            <li>Tünektepe teleferik ile Antalya manzarası</li>
+            <li>Rehber eşliğinde keşif</li>
+        </ul>
+
+        <h3>Gidilecek Yerler</h3>
+        <ul>
+            <li>Düden Şelalesi</li>
+            <li>Kaleiçi ve Saat Kulesi</li>
+            <li>Tünektepe Teleferik</li>
+        </ul>
+
+        <h3>Dahil Olanlar</h3>
+        <ul>
+            <li>Otel transferi</li>
+            <li>Rehberlik hizmeti</li>
+            <li>Teleferik bileti</li>
+        </ul>
+
+        <h3>Hariç Olanlar</h3>
+        <ul>
+            <li>Öğle yemeği</li>
+            <li>İçecekler</li>
+            <li>Kişisel harcamalar</li>
+        </ul>
+
+        <h3>Ne Getirmelisiniz?</h3>
+        <ul>
+            <li>Rahat ayakkabı</li>
+            <li>Güneş kremi ve gözlük</li>
+            <li>Fotoğraf makinesi veya telefon</li>
+        </ul>
+
+        <h3>Bilgilendirme</h3>
+        <p>Tur süresi yaklaşık 6-7 saattir. Teleferik hava koşullarına göre çalışmaktadır. Tüm katılımcılara WhatsApp üzerinden kalkış saati bildirilecektir.</p>
+        <p><strong>Acil İletişim:</strong> +90 552 525 56 48</p>
+        <a href="../index.html#place" class="button">← Turlara Geri Dön</a>
+    </div>
+</main>
+
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content grid">
+            <div class="footer__data">
+                <h3 class="footer__title">Traviask</h3>
+                <p class="footer__description">Hayalindeki tatil Traviask ile başlar. <br>Kolay rezervasyon, güvenli ulaşım, <br>yerel deneyim garantisi!</p>
+                <div>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social"><i class="ri-instagram-fill"></i></a>
+                    <a href="https://wa.me/19732517610" target="_blank" class="footer__social"><i class="ri-whatsapp-fill"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social"><i class="ri-facebook-box-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Menü</h3>
+                <ul>
+                    <li><a href="/turlar" class="footer__link">Turlar</a></li>
+                    <li><a href="/hakkimizda" class="footer__link">Hakkımızda</a></li>
+                    <li><a href="/blog" class="footer__link">Blog</a></li>
+                    <li><a href="/sss" class="footer__link">SSS</a></li>
+                    <li><a href="/iletisim" class="footer__link">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer__data">
+                <h3 class="footer__subtitle">İletişim</h3>
+                <ul>
+                    <li><span class="footer__link">traviaskllc@gmail.com</span></li>
+                    <li><a href="https://wa.me/19732517610" class="footer__link">WhatsApp Destek</a></li>
+                </ul>
+            </div>
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Dil</h3>
+                <select class="footer__link" onchange="location = this.value;">
+                    <option value="/tr" selected>Türkçe</option>
+                    <option value="/en">English</option>
+                    <option value="/de">Deutsch</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer__rights">
+            <p class="footer__copy">&#169; 2025 Traviask. Tüm hakları saklıdır.</p>
+            <div class="footer__terms">
+                <a href="/terms" class="footer__terms-link">Kullanım Şartları</a>
+                <a href="/privacy" class="footer__terms-link">Gizlilik Politikası</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
