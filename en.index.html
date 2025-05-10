@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/traviask_logo.jpg" type="image/png">
+
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive Website Travel</title>
+</head>
+<body>
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">Traviask</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#discover" class="nav__link">Discover</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#place" class="nav__link">Places</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#blog" class="nav__link">Blog</a>
+                </li>
+            </ul>
+
+            <div class="nav__dark">
+                <!-- Theme change button -->
+                <span class="change-theme-name">Dark mode</span>
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </div>
+
+            <i class="ri-close-line nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-line"></i>
+        </div>
+    </nav>
+</header>
+
+
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home" id="home">
+        <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+        <div class="home__container container grid">
+            <div class="home__data">
+                <span class="home__data-subtitle">Live Your Dream Vacation with Traviask</span>
+                <h1 class="home__data-title">
+                    We've gathered Turkey's most popular tours for you.<br>
+                    Start your vacation with easy booking, safe transportation, and the best experience guarantee!
+                </h1>
+                <a href="#about" class="button">Discover</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                    <i class="ri-facebook-box-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                    <i class="ri-twitter-fill"></i>
+                </a>
+            </div>
+
+            <div class="home__info">
+                <div>
+                    <span class="home__info-title">Top 8 places to visit</span>
+                    <a href="#place" class="button button--flex button--link home__info-button">
+                        More <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__info-overlay">
+                    <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__data">
+                <h2 class="section__title about__title">Why Traviask? <br> Why Not?</h2>
+
+                <ul class="about__list">
+                    <li> Secure Booking: Pre-booking system without credit card required</li>
+                    <li> Local Operation Network: Antalya-based field teams</li>
+                    <li> Best Price Guarantee: We work directly with suppliers</li>
+                </ul>
+
+                <p class="about__note">
+                    <strong>Additional info:</strong><br>
+                    Traviask offers a travel experience focused on maximum satisfaction with experienced local guides and a reliable transfer network.
+                </p>
+
+                <a href="https://wa.me/19732517610" target="_blank" class="button">
+                    Click to reserve now
+                </a>
+            </div>
+
+            <div class="about__img">
+                <div class="about__img-overlay">
+                    <img src="assets/img/suluada-12.jpg" alt="" class="about__img-one">
+                </div>
+
+                <div class="about__img-overlay">
+                    <img src="assets/img/suluada-10.jpg" alt="" class="about__img-two">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--==================== DISCOVER ====================-->
+<section class="discover section" id="discover">
+    <h2 class="section__title">Discover <br> The Most Attractive Places</h2>
+
+    <div class="discover__container container swiper-container">
+        <div class="swiper-wrapper">
+            <a href="tours/land-of-legends-night-show.html" class="discover__card swiper-slide">
+                <img src="assets/img/land-of-legends-6.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Land Of Legends</h2>
+                    <span class="discover__description">24 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/adrasan-suluada-maldives.html" class="discover__card swiper-slide">
+                <img src="assets/img/suluada-8.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Suluada</h2>
+                    <span class="discover__description">15 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/antalya-city-tour.html" class="discover__card swiper-slide">
+                <img src="assets/img/land-of-legends-8.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Antalya City Tour</h2>
+                    <span class="discover__description">12 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/koprulu-kanyon-combo.html" class="discover__card swiper-slide">
+                <img src="assets/img/land-of-legends-2.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Koprulu Canyon</h2>
+                    <span class="discover__description">18 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/pamukkale-tour.html" class="discover__card swiper-slide">
+                <img src="assets/img/sdflkj-5.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Pamukkale</h2>
+                    <span class="discover__description">32 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/olympos-cable-car.html" class="discover__card swiper-slide">
+                <img src="assets/img/t-1.png" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Olympos Cable Car</h2>
+                    <span class="discover__description">10 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/turkish-bath-hamam.html" class="discover__card swiper-slide">
+                <img src="assets/img/hamam.png" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Turkish Bath</h2>
+                    <span class="discover__description">8 tours available</span>
+                </div>
+            </a>
+
+            <a href="tours/private-boat-tour.html" class="discover__card swiper-slide">
+                <img src="assets/img/suluada-7.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Private Boat Tour</h2>
+                    <span class="discover__description">6 tours available</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!--==================== EXPERIENCE ====================-->
+<section class="experience section">
+    <h2 class="section__title">We Will Serve You <br> With Our Experience</h2>
+
+    <div class="experience__container container grid">
+        <div class="experience__content grid">
+            <div class="experience__data">
+                <h2 class="experience__number">20</h2>
+                <span class="experience__description">Years of <br> Experience</span>
+            </div>
+
+            <div class="experience__data">
+                <h2 class="experience__number">75</h2>
+                <span class="experience__description">Completed <br> Tours</span>
+            </div>
+
+            <div class="experience__data">
+                <h2 class="experience__number">650+</h2>
+                <span class="experience__description">Tourist <br> Destinations</span>
+            </div>
+        </div>
+
+        <div class="experience__img grid">
+            <div class="experience__overlay">
+                <img src="assets/img/suluada-5.jpg" alt="" class="experience__img-one">
+            </div>
+            <div class="experience__overlay">
+                <img src="assets/img/suluada-6.jpg" alt="" class="experience__img-two">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--==================== VIDEO ====================-->
+<section class="video section">
+    <h2 class="section__title">Video Tour</h2>
+
+    <div class="video__container container">
+        <p class="video__description">Discover more with our video showcasing the most beautiful and enjoyable places for you and your family.</p>
+
+        <div class="video__content">
+            <video id="video-file">
+                <source src="assets/video/video.mp4" type="video/mp4">
+            </video>
+
+            <button class="button button--flex video__button" id="video-button">
+                <i class="ri-play-line video__button-icon" id="video-icon"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+<section class="place section" id="place">
+    <h2 class="section__title">Popular Tours</h2>
+
+    <div class="place__container container grid">
+
+        <!-- 1 -->
+        <div class="blog__card">
+            <img src="assets/img/land-of-legends-1.jpg" alt="Land of Legends" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Land of Legends Night Show</h3>
+                <p class="blog__description">This night tour full of legendary shows is one of the most enchanting experiences in Antalya.</p>
+                <a href="tours/land-of-legends-night-show.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="blog__card">
+            <img src="assets/img/suluada-1.jpg" alt="Suluada" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Adrasan – Suluada – Maldives</h3>
+                <p class="blog__description">Turquoise waters, white beaches, and an unforgettable boat trip await you!</p>
+                <a href="tours/adrasan-suluada-maldives.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="blog__card">
+            <img src="assets/img/land-of-legends-8.jpg" alt="Antalya City Tour" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Antalya City Tour</h3>
+                <p class="blog__description">Explore Antalya’s nature and history with waterfalls, the old town, and a cable car ride.</p>
+                <a href="tours/antalya-city-tour.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="blog__card">
+            <img src="assets/img/land-of-legends-2.jpg" alt="Koprulu Canyon Combo Tour" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Koprulu Canyon Combo Tour</h3>
+                <p class="blog__description">Rafting, zipline, buggy safari, and the view of Tazi Canyon all in one!</p>
+                <a href="tours/koprulu-kanyon-combo.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="blog__card">
+            <img src="assets/img/sdflkj-5.jpg" alt="Pamukkale Tour" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Pamukkale Tour</h3>
+                <p class="blog__description">Discover the white travertines and ancient city of Hierapolis, a UNESCO World Heritage site.</p>
+                <a href="tours/pamukkale-tour.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="blog__card">
+            <img src="assets/img/t-1.png" alt="Olympos Cable Car" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Olympos Cable Car</h3>
+                <p class="blog__description">Take a cable car ride to the summit of Mount Tahtali and enjoy stunning sea views!</p>
+                <a href="tours/olympos-cable-car.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="blog__card">
+            <img src="assets/img/hamam.png" alt="Turkish Bath" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Turkish Bath – Hamam</h3>
+                <p class="blog__description">Relax and rejuvenate with a traditional Turkish bath experience.</p>
+                <a href="tours/turkish-bath-hamam.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="blog__card">
+            <img src="assets/img/suluada-7.jpg" alt="Private Boat Tour" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Private Boat Tour</h3>
+                <p class="blog__description">Enjoy unforgettable moments at sea with a private luxury boat tour.</p>
+                <a href="tours/private-boat-tour.html" class="button button--link">See Details <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<!--==================== SUBSCRIBE ====================-->
+<section class="subscribe section">
+    <div class="subscribe__bg">
+        <div class="subscribe__container container">
+            <h2 class="section__title subscribe__title">Subscribe <br> to Our Newsletter</h2>
+            <p class="subscribe__description">Subscribe to our newsletter and receive exclusive deals.</p>
+
+            <form action="" class="subscribe__form">
+                <input type="text" placeholder="Enter your email" class="subscribe__input">
+                <button class="button">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--==================== SPONSORS ====================-->
+<section class="sponsor section">
+    <div class="sponsor__container container grid">
+        <div class="sponsor__content">
+            <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+        </div>
+        <div class="sponsor__content">
+            <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+        </div>
+        <div class="sponsor__content">
+            <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+        </div>
+        <div class="sponsor__content">
+            <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+        </div>
+        <div class="sponsor__content">
+            <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+        </div>
+    </div>
+</section>
+
+<!--==================== BLOG ====================-->
+<section class="blog section" id="blog">
+    <h2 class="section__title">Traviask Blog</h2>
+
+    <div class="blog__container container grid">
+        <!-- Blog 1 -->
+        <div class="blog__card">
+            <img src="assets/img/blog1.jpg" alt="What You Need to Know Before Visiting Pamukkale" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">What You Need to Know Before Visiting Pamukkale</h3>
+                <p class="blog__description">What to pack and travel tips before heading to the travertines of Pamukkale.</p>
+                <a href="blog/pamukkale-oncesi.html" class="button button--link">Read More <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog 2 -->
+        <div class="blog__card">
+            <img src="assets/img/blog2.jpg" alt="7 Must-See Places in Antalya" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">7 Must-See Places in Antalya</h3>
+                <p class="blog__description">Discover Antalya's 7 iconic spots before planning your vacation!</p>
+                <a href="blog/antalya-7-yer.html" class="button button--link">Read More <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+
+        <!-- Blog 3 -->
+        <div class="blog__card">
+            <img src="assets/img/blog3.jpg" alt="Rafting or Zipline?" class="blog__img">
+            <div class="blog__data">
+                <h3 class="blog__title">Rafting or Zipline? Comparison Guide</h3>
+                <p class="blog__description">Ideal for adventure lovers: zipline or rafting – which one suits you?</p>
+                <a href="blog/rafting-vs-zipline.html" class="button button--link">Read More <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content grid">
+
+            <!-- LOGO & DESCRIPTION -->
+            <div class="footer__data">
+                <h3 class="footer__title">Traviask</h3>
+                <p class="footer__description">
+                    Your dream vacation starts with Traviask. <br>
+                    Easy booking, safe travel, <br>
+                    and local experience guaranteed!
+                </p>
+                <div>
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://wa.me/19732517610" target="_blank" class="footer__social">
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- MENU LINKS -->
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Menu</h3>
+                <ul>
+                    <li><a href="#place" class="footer__link">Tours</a></li>
+                    <li><a href="#about" class="footer__link">About Us</a></li>
+                    <li><a href="#blog" class="footer__link">Blog</a></li>
+                    <li><a href="#faq" class="footer__link">FAQ</a></li>
+                    <li><a href="https://wa.me/19732517610" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- CONTACT INFO -->
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Contact</h3>
+                <ul>
+                    <li><a href="mailto:traviaskllc@gmail.com" class="footer__link">traviaskllc@gmail.com</a></li>
+                    <li><a href="https://wa.me/19732517610" target="_blank" class="footer__link">WhatsApp Support</a></li>
+                </ul>
+            </div>
+
+            <!-- LANGUAGE SELECTOR -->
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Language</h3>
+                <select onchange="changeLanguage(this.value)">
+                    <option value="/tr">Türkçe</option>
+                    <option value="/en" selected>English</option>
+                    <option value="/de">Deutsch</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- COPYRIGHT & TERMS -->
+        <div class="footer__rights">
+            <p class="footer__copy">&#169; 2025 Traviask. All rights reserved.</p>
+            <div class="footer__terms">
+                <a href="/terms" class="footer__terms-link">Terms of Use</a>
+                <a href="/privacy" class="footer__terms-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+    <!--========== WHATSAPP FLOAT ==========-->
+    <div class="floating-buttons">
+        <a href="https://wa.me/19732517610" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+            <i class="ri-whatsapp-line"></i>
+        </a>
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up" aria-label="Yukarı Çık">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+    </div>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

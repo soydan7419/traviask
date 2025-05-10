@@ -133,7 +133,7 @@
             </div>
         </div>
     </section>
-
+</main>
     <!--==================== DISCOVER ====================-->
 
     <section class="discover section" id="discover">
@@ -497,7 +497,7 @@
                 <h3 class="footer__subtitle">İletişim</h3>
                 <ul>
                     <li>
-                        <a href="mailto:traviaskllc@gmail.com" class="footer__link">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=traviaskllc@gmail.com" target="_blank" class="footer__link">
                             traviaskllc@gmail.com
                         </a>
                     </li>
@@ -513,11 +513,12 @@
             <!-- DİL SEÇİCİ -->
             <div class="footer__data">
                 <h3 class="footer__subtitle">Dil</h3>
-                <select class="footer__link" onchange="location = this.value;">
-                    <option value="/tr" selected>Türkçe</option>
-                    <option value="/en">English</option>
-                    <option value="/de">Deutsch</option>
+                <select onchange="window.location.href = this.value;">
+                    <option value="/index.html" selected>Türkçe</option>
+                    <option value="/en/index.html">English</option>
+                    <option value="/de/index.html">Deutsch</option>
                 </select>
+
             </div>
         </div>
 
@@ -554,5 +555,6 @@
 
 <!--=============== MAIN JS ===============-->
 <script src="assets/js/main.js"></script>
+
 </body>
 </html>
