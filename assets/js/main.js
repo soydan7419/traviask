@@ -11,6 +11,9 @@ if(navToggle){
     })
 }
 
+
+
+
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose){
@@ -56,7 +59,7 @@ const videoFile = document.getElementById('video-file'),
       videoButton = document.getElementById('video-button'),
       videoIcon = document.getElementById('video-icon')
 
-function playPause(){ 
+function playPause(){
     if (videoFile.paused){
         // Play video
         videoFile.play()
@@ -66,7 +69,7 @@ function playPause(){
     }
     else {
         // Pause video
-        videoFile.pause(); 
+        videoFile.pause();
         // We change the icon
         videoIcon.classList.remove('ri-pause-line')
         videoIcon.classList.add('ri-play-line')
@@ -84,7 +87,7 @@ function finalVideo(){
 videoFile.addEventListener('ended', finalVideo)
 
 
-/*==================== SHOW SCROLL UP ====================*/ 
+/*==================== SHOW SCROLL UP ====================*/
 function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
     // When the scroll is higher than 200 viewport height, add the show-scroll class to the a tag with the scroll-top class
@@ -147,7 +150,7 @@ sr.reveal(`.about__img-overlay,
     interval: 100,
 })
 
-/*==================== DARK LIGHT THEME ====================*/ 
+/*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'ri-sun-line'
@@ -176,3 +179,4 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
